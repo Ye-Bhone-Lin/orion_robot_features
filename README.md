@@ -4,7 +4,9 @@ This repository contains various modules and features for the Orion Robot, a ver
 
 # Repository Structure
 •  src/: Contains the source code for various features of the Orion Robot.
+
 •  object_detection/: Code for real-time object detection using the YOLOv8 model.
+
 •  line_detection/: Arduino-based line detection code for robot navigation.
 
 # Features
@@ -14,7 +16,9 @@ Located in src/object_detection/, this module leverages the YOLOv8 model for rea
 #### Key Features:
 
 •  Detects a wide range of objects including people, vehicles, and everyday items.
+
 •  Real-time performance with live video feeds.
+
 •  Easy-to-use interface for integration with other robotic systems.
 
 # Line Detection using Arduino
@@ -23,5 +27,7 @@ Located in src/line_detection/, this module is responsible for detecting lines o
 ### Key Features:
 
 •  Real-time line detection using IR sensors connected to an Arduino.
+
 •  Simple and effective for line-following robots.
+
 •  Can be integrated with other navigation systems for complex tasks.
